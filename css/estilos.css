@@ -1,0 +1,151 @@
+body {
+    background: url(../img/bggrass.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+#body-contact {
+    background: url(../img/cat_and_seagull-1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+#title-intro {
+    margin: 1em;
+}
+
+#section {
+    background-color: rgba(255, 235, 205, 0.842);
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.btnstore {
+    margin: 0.25em;
+}
+
+.card h3 {
+  padding-top: 23px;
+}
+
+#enviado {
+    color: rgb(78, 255, 78);
+}
+
+#footer {
+    margin: 1em;
+    background-color: black;
+    color: white;
+
+}
+
+#portada-producto {
+  height: 200px;
+  max-height: 200px;
+}
+
+#footer a {
+    color: #fff;
+    margin-top: 0.25em;
+    padding-top: 0.25em;
+}
+
+#footer p {
+    color: #fff;
+    margin-top: 0.25em;
+    padding-top: 0.25em;
+    vertical-align: middle;
+}
+
+.tituloproducto {
+    margin-top: 30px;
+}
+  
+  
+  .sidebar-navigation {
+    display: inline-block;
+    min-height: 100vh;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ed44b2, #ff5188, #ff7a5d, #ffaa39, #fbd830);
+  }
+  .sidebar-navigation ul {
+    text-align: center;
+    color: white;
+    list-style: none;
+  }
+  .sidebar-navigation ul li {
+    padding: 28px 0;
+    cursor: pointer;
+    transition: all ease-out 120ms;
+  }
+  .sidebar-navigation ul li i {
+    display: block;
+    font-size: 24px;
+    transition: all ease 450ms;
+  }
+  .sidebar-navigation ul li .tooltip {
+    display: inline-block;
+    position: absolute;
+    background-color: #313443;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: -26px;
+    left: 90px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+  .sidebar-navigation ul li .tooltip:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+  }
+  .sidebar-navigation ul li:hover {
+    background-image: linear-gradient(to right, #ff00a6, #ff3377, #ff6d4a, #ffa21c, #fbd000);
+  }
+  .sidebar-navigation ul li:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .sidebar-navigation ul li {
+    margin-left: -32px;
+  }
+
+  .sidebar-navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sidebar-navigation ul li.active {
+    background-image: linear-gradient(to right, #ff00a6, #ff3377, #ff6d4a, #ffa21c, #fbd000);
+  }
+  .sidebar-navigation ul li.active i {
+    color: #ffffff;
+  }
+
+ .card {
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+
